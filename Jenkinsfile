@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Test'){
             steps {
-                s '/var/jenkins_home/workspace/PIPELINE_PES1UG20CS409/test_pipeline/test_exec'
+                s '/var/jenkins_home/workspace/PES1UG20CS415/test_pipeline/test_exec'
                 echo '[JENKINS PIPELINE] : Test done!'
             }
         }
